@@ -58,8 +58,17 @@ main section {
     padding: 50px 0;
 }
 
-main section:nth-child(even) {
-    background: rgb(246, 246, 246);
+/* SECTION - Waves */
+main svg.white-grey {
+    display: block;
+    background-color: white;
+    color: rgb(246, 246, 246);
+}
+
+main svg.grey-white {
+    display: block;
+    background-color: rgb(246, 246, 246);
+    color: white;
 }
 
 /* SECTION - Immagine e Testo */

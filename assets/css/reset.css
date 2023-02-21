@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600;800;900&display=swap');
 
+/* REGOLE GENERALI*/
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +30,17 @@ a {
     margin: 0 auto;
 }
 
+/* Background colors */
+.b-white {
+    background-color: white;
+}
+
+.b-grey {
+    background-color: rgb(246, 246, 246);
+}
+/* Background colors */
+
+/* Margini */
 .margin-20{
     margin: 20px;
 }
@@ -36,11 +48,13 @@ a {
 .margin-updo-20{
     margin: 20px 0;
 }
+/* Margini */
 
 .c-white {
     color: white;
 }
 
+/* Buttons */
 .button-white {
     background-color: white;
     color: black;
@@ -61,3 +75,4 @@ a {
     text-align: center;
     padding: 8px 0;
 }
+/* Buttons */
