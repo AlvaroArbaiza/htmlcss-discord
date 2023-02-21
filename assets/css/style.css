@@ -140,6 +140,13 @@ footer section div a {
     color: white;
 }
 
-.flag{
+footer section div img.flag{
     width: 30px;
+    vertical-align: middle;
+}
+
+footer section div select {
+    border: none;
+    color: white;
+    background-color: rgb(35, 39, 42);
 }
