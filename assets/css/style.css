@@ -101,8 +101,6 @@ main section h4#text-down {
 }
 
 main section #section4 a {
-    background-color: rgb(142, 161, 225);
-    color: white;
     margin: auto;
 }
 
@@ -110,13 +108,13 @@ main section #section4 a {
 /* Background */
 footer {
     background-color: rgb(35, 39, 42);
+    padding: 50px 0;
 }
 
 footer section {
     justify-content: space-between;
 }
 
-/* Misure Links */
 footer section div#socials {
     width: calc(100% / 3);
     height: 400px;
@@ -127,6 +125,7 @@ footer section div.footer-link {
     height: 400px;
 }
 
+/* FOOTER - Unordered list  */
 footer section div ul {
     flex-direction: column;
 }
@@ -166,4 +165,14 @@ footer section div i {
 
 footer section div li {
     margin-bottom: 10px;
+}
+
+footer hr {
+    border: 1px solid rgb(72, 85, 126);
+}
+
+footer section a {
+    width: 100px; height: 40px;
+    text-align: center;
+    padding: 10px 0 ;
 }
