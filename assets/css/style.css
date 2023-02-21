@@ -1,0 +1,124 @@
+/* HEADER */
+/* Background */
+header {
+    background: url(../img/jumbo.png);
+}
+
+/* HEADER - Parte Superiore */
+header nav {
+    justify-content: space-between;
+}
+
+header nav div {
+    align-items: center;
+}
+
+header nav div ul {
+    justify-content: space-between;
+}
+
+header nav a#accedi {
+    width: 70px; height: 30px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+/* HEADER -  Parte Inferiore */
+header section #presentazione {
+    text-align: center;
+    margin: 80px 200px;
+}
+
+header section div h1 {
+    margin-bottom: 30px;
+}
+
+header section div#buttons-header {
+    justify-content: center;
+}
+
+header section div a#button-scarica {
+    display: inline-block;
+    width: 150px; height: 40px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+header section div a#button-apri {
+    display: inline-block;
+    background-color: rgb(35, 39, 42);
+    color: white;
+    border-radius: 50px;
+    width: 220px; height: 40px;
+    text-align: center;
+    padding: 8px 0 2px 0;
+}
+
+/* MAIN */
+/* Sections */
+main section {
+    background-color: beige;
+    padding: 40px 0;
+}
+
+/* Immagine e Testo */
+.immagine {
+    width: 70%;
+    height: 400px;
+    background-color: aqua;
+}
+
+.testo {
+    width: 30%;
+    height: 400px;
+    background-color: darkorange;
+}
+
+/* Section 4 - div sect4 */
+#sect4 {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Section 4 - Immagine e Testo */
+.immagine-center {
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+}
+
+.testo-up {
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    background-color: darkorange;
+}
+
+.testo-down {
+    width: 30%;
+    height: 100px;
+    text-align: center;
+    background-color: darkorange;
+}
+
+/* FOOTER */
+/* Background */
+footer {
+    background-color: gainsboro;
+}
+
+/* Misure Links */
+#socials {
+    width: calc(100% / 3);
+    height: 400px;
+}
+
+.footer-link {
+    width: calc(100% / 6);
+    height: 400px;
+}
+
+/* Logo e Registrati */
+footer section {
+    justify-content: space-between;
+}
