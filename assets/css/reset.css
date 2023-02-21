@@ -33,6 +33,16 @@ a {
 
 .button-white {
     background-color: white;
-    border-radius: 50px;
     color: black;
+}
+
+.bord-r-50 {
+    border-radius: 50px;
+}
+
+.button-scarica {
+    display: inline-block;
+    width: 160px; height: 40px;
+    text-align: center;
+    padding: 5px 0;
 }
